@@ -1,10 +1,10 @@
-package basics;
+package basics.loops;
 
 public class ForLoop4 {
 
 public static void main(String[] args) {
 
-int sum = 1 + 2 + 3 + 4 + 5; //20
+int sum = 1 + 2 + 3 + 4 + 5; //15
 System.out.println(sum);
 sum = 0;
 

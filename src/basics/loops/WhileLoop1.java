@@ -1,4 +1,4 @@
-package basics;
+package basics.loops;
 /**
  * Imagine the following scenario:
  * In a game, a intelligent monster
@@ -10,7 +10,7 @@ package basics;
  * Sep 26, 2026
  */
 
-public class Whileloop1{
+public class WhileLoop1{
 
 	public static void main(String[] args) {
 		int distance = 19;

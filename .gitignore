@@ -1,0 +1,3 @@
+# Archivos compilados (Eclipse los genera solo)
+bin/
+*.class

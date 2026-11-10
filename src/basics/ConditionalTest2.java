@@ -1,8 +1,8 @@
-package Basics;
+package basics;
 
 import java.util.Scanner;
 
-public class Forloops5 {
+public class ConditionalTest2 {
 
 
 	    public static void main(String[] args) {
