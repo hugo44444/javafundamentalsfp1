@@ -1,34 +1,37 @@
 package basics.loops;
-
 /**
- * Loops practicas - Nested loops (bucles anidados).
- *
- * Un bucle anidado es un bucle DENTRO de otro.
- * Por cada vuelta del bucle de fuera, el de dentro da TODAS sus vueltas.
- *
- * @author Hugo
+ * 
+ * Sep 22, 2026
+ * cepv
  */
 public class ForLoop3 {
 
-    public static void main(String[] args) {
-
-        // Tablas de multiplicar del 1 al 3
-        for (int i = 1; i <= 3; i++) {            // bucle de fuera: la tabla
-            System.out.println("Tabla del " + i + ":");
-            for (int j = 1; j <= 10; j++) {       // bucle de dentro: 1..10
-                System.out.println("  " + i + " x " + j + " = " + (i * j));
-            }
-        }
-
-        // Dibujar un triángulo de asteriscos
-        //  *
-        //  **
-        //  ***
-        for (int fila = 1; fila <= 5; fila++) {
-            for (int col = 1; col <= fila; col++) {
-                System.out.print("*");
-            }
-            System.out.println(); // salto de línea al terminar cada fila
-        }
-    }
+	public static void main(String[] args) {
+//		print all even numbers between 5 and 102
+//		for (int i = 4; i <= 102; i = i + 2) {
+//			System.out.println(i);
+//		}
+		
+//		print all even numbers between 5 and 102
+		for (int i = 5; i <= 102; i = i + 1) {
+			//if the value of i is even, we print it 
+			if(i % 2 == 0) {
+				System.out.println(i);
+			}
+		}
+		
+		for (int i = 0; i <= 102; i = i + 1) {
+			//if the value of i is even, we print it 
+			/** 
+			 * "i % 2 == 1" 
+			 * is equivalent to 
+			 * "i % 2 != 0"
+			 * "!=" means not equal
+			 * "==" means equal
+			 */
+			if(i % 2 != 0) {
+				System.out.println(i);
+			}
+		}
+	}
 }

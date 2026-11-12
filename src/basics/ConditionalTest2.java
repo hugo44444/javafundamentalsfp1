@@ -1,26 +1,33 @@
 package basics;
 
-import java.util.Scanner;
-
+/**
+ * 
+ * Sep 17, 2026
+ * cepv
+ */
 public class ConditionalTest2 {
 
-
-	    public static void main(String[] args) {
-
-	        Scanner teclado = new Scanner(System.in);
-
-	        int temperatura;
-
-	        System.out.print("Introduce la temperatura: ");
-	        temperatura = teclado.nextInt();
-
-	        if (temperatura > 40) {
-	            System.out.println("Ventilador encendido");
-	        } else {
-	            System.out.println("Ventilador apagado");
-	        }
-
-	        teclado.close();
-	    }
+	public static void main(String[] args) {
+		int score = 40;
+		if(score >= 80 && score <= 100) {//80 <= score and score >= 100
+			System.out.println("excellent");
+		}
+		else if(score < 80 && score >= 70) {
+			System.out.println("good");
+		}
+		else if(score < 70 && score > 50) {
+			System.out.println("ok");
+		}
+		else {
+			System.out.println("so, so");
+		}
+		
+		score = 60;
+		if(score > 50) {
+			System.out.println("so, so");
+		}
+		else if(score < 80 && score > 30) {
+			System.out.println("good");
+		}
 	}
-
+}
