@@ -70,8 +70,11 @@ public class Dog {
         Dog d2 = new Dog("Luna", "Beagle");
         Dog d3 = new Dog("Rocky", "Pastor alemán", 4, 32.5, "negro y marrón");
 
+        System.out.print("Perro 1: ");
         d1.printInfo();
+        System.out.print("Perro 2: ");
         d2.printInfo();
+        System.out.print("Perro 3: ");
         d3.printInfo();
     }
 }
