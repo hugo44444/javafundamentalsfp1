@@ -1,8 +1,7 @@
 package oopexercises;
 
 /**
- * Ejercicio 3: clase Estudiante con nombre y nota.
- * (El cálculo de la media de 3 estudiantes está en OopExercisesMain.)
+ * Ejercicio 3: Estudiante con nombre y nota.
  *
  * @author Hugo
  */
@@ -16,6 +15,11 @@ public class Estudiante {
         this.nota = nota;
     }
 
-    public String getNombre() { return nombre; }
-    public double getNota()   { return nota; }
+    public String getNombre() {
+        return nombre;
+    }
+
+    public double getNota() {
+        return nota;
+    }
 }

@@ -1,11 +1,8 @@
 package basics.loops;
 
 /**
- * Loops practicas - Do/While loop.
- *
- * Diferencia con el while normal:
- *  - while:    comprueba la condición ANTES  -> puede no ejecutarse nunca.
- *  - do-while: comprueba la condición DESPUÉS -> se ejecuta MÍNIMO una vez.
+ * Loops practicas: do while
+ * El do while se ejecuta al menos una vez porque comprueba la condición al final.
  *
  * @author Hugo
  */
@@ -15,15 +12,14 @@ public class DoWhileLoop1 {
 
         int i = 0;
         do {
-            System.out.println("Vuelta número " + i);
+            System.out.println("Vuelta " + i);
             i++;
         } while (i < 5);
 
-        // Aunque la condición sea falsa desde el principio,
-        // el do-while se ejecuta una vez:
+        // aunque la condición es falsa, entra una vez
         int x = 100;
         do {
-            System.out.println("Esto se imprime una vez aunque x < 5 sea falso");
+            System.out.println("x vale " + x);
         } while (x < 5);
     }
 }

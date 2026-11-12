@@ -1,7 +1,7 @@
 package oopexercises;
 
 /**
- * Ejercicio 4 (parte 1): clase Monedero con una cantidad de monedas.
+ * Ejercicio 4: Monedero con una cantidad de monedas.
  *
  * @author Hugo
  */
@@ -14,16 +14,11 @@ public class Monedero {
     }
 
     public void meter(int cantidad) {
-        monedas += cantidad;
+        monedas = monedas + cantidad;
     }
 
-    /** Saca monedas si hay suficientes. Devuelve true si se pudo. */
-    public boolean sacar(int cantidad) {
-        if (cantidad > monedas) {
-            return false; // no hay suficientes monedas
-        }
-        monedas -= cantidad;
-        return true;
+    public void sacar(int cantidad) {
+        monedas = monedas - cantidad;
     }
 
     public int getMonedas() {

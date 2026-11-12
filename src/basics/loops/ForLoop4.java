@@ -11,7 +11,7 @@ public class ForLoop4 {
 		 * the problem
 		 * 
 		 */
-		int sum = 1 + 2 + 3 + 4 + 5; // 15
+		int sum = 1 + 2 + 3 + 4 + 5; // 20
 		System.out.println(sum);
 		sum = 0;
 		//first step
