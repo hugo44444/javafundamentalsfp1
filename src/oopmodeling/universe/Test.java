@@ -1,4 +1,4 @@
-package oopmodelling;
+package oopmodeling.universe;
 
 public class Test {
 

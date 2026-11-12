@@ -1,4 +1,4 @@
-package oopmodelling;
+package oopmodeling.math;
 
 /**
  * @author cepv
